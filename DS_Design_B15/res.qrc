@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/cidian.jpg</file>
+        <file>res/HelloWorld.png</file>
+        <file>res/name.png</file>
+        <file>res/start.jpg</file>
+        <file>res/newStart.png</file>
+        <file>res/daima.jpg</file>
+        <file>res/river.jpg</file>
+        <file>res/AI.jpg</file>
+        <file>res/bear.jpg</file>
+        <file>res/back.jpg</file>
+        <file>res/ziluolan.png</file>
+        <file>res/juren.jpg</file>
+        <file>res/daojian.jpg</file>
+        <file>res/danwan.jpg</file>
+        <file>res/blue.jpg</file>
+        <file>res/mu.jpg</file>
+        <file>res/nuan.jpg</file>
+        <file>English/all.txt</file>
+        <file>res/name_copy.png</file>
+        <file>res/all.txt</file>
+        <file>res/megumi.jpg</file>
+        <file>res/1.txt</file>
+    </qresource>
+</RCC>
