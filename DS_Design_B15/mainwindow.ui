@@ -248,7 +248,14 @@ p, li { white-space: pre-wrap; }
      </widget>
     </item>
     <item>
-     <widget class="QListWidget" name="WordFrequencyList"/>
+     <widget class="QListWidget" name="WordFrequencyList">
+      <property name="movement">
+       <enum>QListView::Static</enum>
+      </property>
+      <property name="isWrapping" stdset="0">
+       <bool>false</bool>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

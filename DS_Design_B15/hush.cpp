@@ -2,10 +2,10 @@
 
 //先将表头初始化，表头不存数据，方便后面的删除操作
 Hush::Hush() {
-  for(int i = 0; i < mod; i++) head[i] = new Linknode<pair<string, string> >(make_pair("null", "null"));
+    for(int i = 0; i < mod; i++) head[i] = new Linknode<pair<string, string> >(make_pair("null", "null"));
 }
 
-//哈希函数，将字符串当成一个P进制数，这里要主义+mod再进行%mod防止hash值为负数
+//哈希函数，将字符串当成一个P进制数，这里要主义+mod再进行%mod防止hash值为负数（用链地址法处理冲突）
 int Hush::hashCode(string key) {
     int hash = 0;
     for(int i = 0; i < (int)key.size(); i++)
@@ -78,5 +78,3 @@ Hush::~Hush() {
         }
     }
 }
-
-

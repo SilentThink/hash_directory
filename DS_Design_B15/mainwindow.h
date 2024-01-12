@@ -6,6 +6,7 @@
 #include <QTextEdit>
 #include <QLineEdit>
 #include <QListWidget>
+#include "hush.h"
 
 namespace Ui {
 class MainWindow;
@@ -38,6 +39,11 @@ public:
     QPushButton* getInsertTextBtn();
 
     QListWidget* getWordFrequencyList();
+
+    void init();
+
+    //创建一个散列表
+    Hush *hush_table = new Hush();
 
 
 private:
